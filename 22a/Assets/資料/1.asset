@@ -16,8 +16,10 @@ MonoBehaviour:
   attack: 10
   countStart: 1
   countMax: 3
-  interval: 3.5
+  interval: 1
   v3SpawnPoint:
-  - {x: -0.3, y: 0, z: 0}
-  - {x: 0, y: 0.3, z: 0}
-  - {x: 0.3, y: 0, z: 0}
+  - {x: -0.6, y: 0, z: 0}
+  - {x: -0.2, y: 0.5, z: 0}
+  - {x: 0.2, y: 0, z: 0}
+  goWeapon: {fileID: 4305240600869332257, guid: 9661587b43b38e447b998905fa7b8294, type: 3}
+  v3Direction: {x: 0, y: 1, z: 0}
