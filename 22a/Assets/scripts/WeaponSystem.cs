@@ -9,6 +9,8 @@ namespace GG
     {
         [SerializeField, Header("武器資料")]
         private DataWeapon dataWeapon;
+        [SerializeField, Header("武器刪除時間")]
+        private float destoryWeaponTime = 3.5f;
         /// <summary>
         /// 計時器
         /// </summary>
@@ -68,6 +70,8 @@ namespace GG
                 temp.GetComponent<Rigidbody2D>().AddForce(dataWeapon.v3Direction * dataWeapon.speed);
 
                 timer = 0;
+
+                Destroy(temp, destoryWeaponTime);
             }
         }
     }
