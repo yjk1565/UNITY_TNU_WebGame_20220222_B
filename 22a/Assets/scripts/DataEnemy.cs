@@ -22,6 +22,8 @@ namespace GG
         public float expDropProbability = 0.8f;
         [Header("±¼¸¨¸gÅç­ÈÃþ«¬")]
         public TypeExp typeExp;
+        [Header("°±¤î¶ZÂ÷"), Range(0, 10)]
+        public float stopDistance = 1.5f;
     }
 
 

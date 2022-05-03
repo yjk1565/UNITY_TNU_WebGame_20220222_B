@@ -72,6 +72,8 @@ namespace GG
                 timer = 0;
 
                 Destroy(temp, destoryWeaponTime);
+
+                temp.GetComponent<Weapon>().attack = dataWeapon.attack;
             }
         }
     }
